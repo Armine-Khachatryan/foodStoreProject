@@ -1,0 +1,58 @@
+.footer{
+    background-color: black !important;
+}
+.footerFirstPart{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding:64px 0;
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+.footerColumn{
+    max-width: 255px;
+}
+
+.footColTitle{
+    font-family: InterRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #F4F5F7;
+    padding-bottom: 24px;
+}
+hr {
+    color: 2px solid white;
+    opacity: 0.1;
+}
+
+
+
+.footColTitlePart{
+    padding-bottom: 12px;
+    font-family: InterRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #EEEFF4;
+}
+
+.googleAppIcon{
+    max-width:162px;
+}
+
+.footerSecondPart{
+    display: flex;
+    justify-content: space-between;
+    padding:24px 0;
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+
+

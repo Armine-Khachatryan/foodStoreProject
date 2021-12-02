@@ -1,0 +1,116 @@
+.foodCardContainer{
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+
+.foodCardImg{
+    max-width:230px;
+    width:100%;
+    margin: 132px auto 28px;
+
+}
+
+.foodCardTitle{
+    font-family: PoppinsRegular;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 33px;
+    color: #00302E;
+    margin-bottom: 17px;
+    text-align: center;
+}
+
+.foodCardDescription{
+    max-width: 394px;
+    margin-bottom: 41px;
+    text-align: center;
+}
+
+
+.foodCardDetails{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 51px;
+}
+
+.sum{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 33px;
+    color: #00302E;
+}
+
+.quantity{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 33px;
+    color: #00302E;
+}
+
+.available{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 33px;
+    color: #00302E;
+}
+
+.addOperations{
+    display: flex;
+    justify-content: space-between;
+}
+
+.operationsAll{
+    display: flex;
+    justify-content: space-between;
+}
+
+.operations1{
+    background: #F3C294;
+    width:48px;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operations2{
+    width:48px;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operations3{
+    background: #F3C294;
+    width:48px;
+    height:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adding{
+    background: #00302E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: PoppinsRegular;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 27px;
+    color: #FBFBFB;
+    max-width: 144px;
+    width:100%
+
+}
+

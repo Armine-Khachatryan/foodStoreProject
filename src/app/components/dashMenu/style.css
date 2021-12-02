@@ -1,0 +1,55 @@
+
+
+.dashIconCount{
+    display: flex;
+    justify-content: space-between;
+    max-width: 267px;
+    padding:15px;
+    align-items: center;
+}
+
+
+
+.dashIconTxt{
+    display: flex;
+    max-width: 65%;
+
+}
+
+.green{
+    background: #06E775;
+    border: 1px solid #06E775;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.brown {
+    background: #F3C294;
+    border: 1px solid #F3C294;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.dashIcon{
+    max-width: 24px;
+    margin-right: 17px;
+}
+
+.dashTxt{
+    font-family: PoppinsRegular;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.dashCount{
+    font-family: RobotoRegular;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    max-width: 24px;
+    width:100%;
+    text-align: center;
+}

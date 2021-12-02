@@ -1,0 +1,91 @@
+.dashboardGlobal{
+    display: flex;
+}
+
+.dashMenu{
+    max-width: 320px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.dashboard1{
+    max-width: 320px;
+    width:100%;
+    background: #FBFBFB;
+    border-radius: 20px;
+    min-height: 100vh;
+}
+.dashboard2{
+    background: white;
+    width:100%
+}
+.dashLogoTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 113px;
+    margin-bottom: 124px;
+}
+.dashLogo{
+    max-width: 58px;
+    margin-right: 20px;
+}
+.dashLilies{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: #00302E;
+}
+
+.containerMenu{
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 956px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.foodPlace{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 139px;
+    margin-bottom: 48px;
+}
+
+.foodPlace1{
+    max-width: 358px;
+}
+
+.foodPlace3{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 33px;
+    color: #00302E;
+    margin-bottom: 9px;
+}
+
+.foodPlace4{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 0.69);
+}
+
+.foodPlace2{
+    max-width: 50px;
+}
+
+.dashboard3{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(max-content,240px));
+    grid-gap: 68px;
+    justify-content: space-between;
+}

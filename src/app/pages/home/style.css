@@ -1,0 +1,173 @@
+
+.firstDiv{
+    display:grid;
+    grid-template-columns:54% 40%;
+    grid-gap: 156px;
+    margin-top: 103px;
+}
+
+.whole {
+    background-color: #00302E;
+}
+
+.foodTitle{
+    font-family: PoppinsRegular, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+    max-width: 650px;
+}
+
+.foodText{
+    font-family: PoppinsRegular, sans-serif;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.74);
+    padding-bottom: 21px;
+    padding-top:8px;
+    max-width:609px;
+}
+
+
+.badg{
+    max-width: 282px;
+}
+
+.thirdDiv{
+    max-width: 400px;
+}
+
+.mealSection{
+    background-color: #00302E;
+}
+
+.mealTitle{
+    font-family: PoppinsRegular, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.87);
+    text-align: center;
+    margin-bottom: 208px;
+    margin-top:180px
+}
+
+.mealTitle{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.meals{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 150px;
+    padding-bottom: 269px;
+}
+
+.mealTextImg{
+
+}
+
+.mealImg{
+    max-width:250px;
+    margin: auto;
+}
+
+.mealSubTitle{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 33px;
+    text-align: center;
+    color: #FBDDBB;
+    padding-bottom: 14px;
+    padding-top: 35px;
+}
+
+.mealText{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.83);
+    max-width: 288px;
+}
+
+.notifiedTitle{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 33px;
+    color: #FBDDBB;
+    max-width: 549px;
+    margin-bottom: 32px;
+}
+
+.notifiedText{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.95);
+    max-width: 531px;
+}
+
+.inputAndButton{
+    display:flex;
+    align-items: center;
+}
+.emailInp{
+    min-width:  299px;
+    background: #F7F7F7;
+    border: 1px solid #B3B3B3;
+    border-radius: 5px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 16px;
+    font-family: RubikRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #B2B2B2;
+    margin-right: 8px;
+}
+
+.notifiedButton{
+    background: #FBDDBB;
+    border-radius: 5px;
+    font-family: RubikRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #00302E;
+    padding: 15px 0;
+    min-width: 182px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notInput{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 201px;
+}
+
+

@@ -1,0 +1,72 @@
+.header{
+
+}
+
+.head{
+    display:flex;
+    justify-content: space-between;
+    padding: 59px 0;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+}
+
+.logoDiv{
+    max-width: 67px;
+    margin-right: 13px;
+}
+
+.lilies{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.headerPart{
+    display: flex;
+}
+
+.headerHome{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 33px;
+    color: #FBDDBB;
+    margin-right: 53px;
+    display: flex;
+    align-items: center;
+}
+
+.headerLogin{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 33px;
+    color: rgba(255, 255, 255, 0.87);
+    margin-right: 53px;
+    display: flex;
+    align-items: center;
+
+}
+.headerSignUp{
+    background: #E2B887;
+    border-radius: 7px;
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 33px;
+    color: #00302E;
+    min-width: 142px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

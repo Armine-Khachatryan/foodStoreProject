@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+}
+img{
+  width:100%
+}
+body{
+
+  margin:0
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1224px;
+  background-color:  #00302E;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+font-face {
+  font-family:PoppinsBold;
+  src: url("app/assets/fonts/poppins/Poppins_Bold.ttf");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family:RobotoRegular;
+  src: url("app/assets/fonts/roboto/Roboto-Regular.ttf");
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family:PoppinsRegular;
+  src: url("app/assets/fonts/poppins/Poppins_Regular.ttf");
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family:RubikRegular;
+  src: url("app/assets/fonts/rubik/Rubik-Regular.ttf");
+}
+
+font-face {
+  font-family:InterRegular;
+  src: url("app/assets/fonts/inter/Inter-Regular.ttf");
+}
+
+font-face {
+  font-family:InterBold;
+  src: url("app/assets/fonts/inter/Inter-Bold.ttf");
 }

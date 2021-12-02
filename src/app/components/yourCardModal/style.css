@@ -1,0 +1,161 @@
+.yourCardContainer{
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 630px;
+    margin:0 auto;
+}
+
+.yourCardTitle{
+    font-family: PoppinsRegular;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 33px;
+    color: #00302E;
+    margin-top: 52px;
+    margin-bottom: 24px;
+}
+
+
+
+.cardTitleContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 35px;
+}
+
+
+.itemWord{
+    font-family: PoppinsRegular;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.69);
+}
+
+.itemPart{
+    display: grid;
+    grid-template-columns:repeat(3, minmax(max-content, 30%));
+    grid-gap: 33px;
+}
+
+.eachItem{
+    font-family: PoppinsRegular;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 33px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.69);
+    text-align: center;
+}
+
+
+.yourCardInclusionSubDiv{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.yourCardInclusion1{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-bottom: 56px;
+}
+
+.yourCardInclusion2{
+    max-width: 70px;
+    margin-right: 15px;
+}
+
+.yourCardInclusion3{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.yourCardFoodName{
+    font-family: PoppinsRegular;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 33px;
+    color: #00302E;
+}
+
+.removeAction{
+    font-family: PoppinsRegular;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 33px;
+    color: #C92C33;
+}
+
+.quantityPriceDiv{
+    display: grid;
+    grid-template-columns:repeat(3, minmax(max-content, 30%));
+    grid-gap: 33px;
+}
+
+.quantityDiv{
+    font-family: PoppinsRegular;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 33px;
+    color: #00302E;
+    text-align: center;
+}
+
+.priceDiv{
+    font-family: PoppinsRegular;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 33px;
+    color: #00302E;
+    text-align: center;
+}
+
+.subTotalPrice{
+    font-family: PoppinsRegular;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 33px;
+    color: #00302E;
+    text-align: center;
+}
+
+.totalPriceDiv{
+    display: flex;
+    justify-content:flex-end;
+    margin-bottom: 40px;
+}
+
+.totalWord{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 0.69);
+    margin-right: 26px;
+}
+
+.totalPrice{
+    font-family: PoppinsRegular;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 33px;
+    color: #00302E;
+}
+
+.checkOutBtn{
+    font-family: PoppinsRegular;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    color: #F3C294;
+    background: #00302E;
+    max-width: 479px;
+    margin:0 auto;
+    padding: 17px 0 17px;
+}
+

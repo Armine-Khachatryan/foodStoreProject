@@ -1,0 +1,132 @@
+.globalLogin{
+    display:flex;
+}
+
+.picDiv{
+    max-width:764px;
+    max-height: 900px;
+}
+
+.formDivLogin{
+    max-width: 676px;
+    width:100%
+}
+
+.formSubDivLogin{
+    max-width:488px;
+    margin:auto;
+    width:100%
+}
+
+.loginTitle{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    color: #00302E;
+    text-align: center;
+    margin-bottom: 61px;
+    margin-top: 278px;
+}
+
+.emailDiv{
+    margin-bottom: 48px;
+}
+
+
+
+.emailInputLogin{
+    padding: 19px 0px 19px 25px;
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 33px;
+    color: rgba(0, 48, 46, 0.53);
+    text-align: left;
+    width:100%;
+    max-width:488px;
+    border: 1px solid rgba(251, 221, 187, 0.51);
+}
+
+.text-danger{
+    color:red;
+    font-size:18px;
+    margin-top: 10px;
+}
+
+
+.inputDivLogin{
+    position:relative;
+    margin-bottom: 48px;
+}
+
+.passwordInputLogin{
+    padding: 19px 0px 19px 25px;
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 33px;
+    color: rgba(0, 48, 46, 0.53);
+    width:100%;
+    max-width:488px;
+    border: 1px solid rgba(251, 221, 187, 0.51);
+}
+
+.showLogin{
+    position:absolute;
+    top:19px;
+    right:30px;
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 33px;
+    color: #00302E;
+}
+
+.loginBtn{
+    background: #00302E;
+    border-radius: 5px;
+    padding: 15px 0px;
+    margin-bottom: 43px;
+    font-family: RubikRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FBDDBB;
+}
+
+
+.ph5{
+    display:block
+}
+
+.accountPsw{
+    display: flex;
+    justify-content: space-between;
+}
+
+.creatingAccount{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 33px;
+    text-align: center;
+    color: rgba(0, 48, 46, 0.91);
+}
+
+.forgotPsw{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 33px;
+    text-align: center;
+    color: rgba(0, 48, 46, 0.91);
+}

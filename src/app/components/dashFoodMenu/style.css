@@ -1,0 +1,61 @@
+
+
+.foodPlacePart{
+
+
+}
+.foodPlacePart1{
+    max-width: 240px;
+    padding: 47px 23px 23px 23px;
+    background: rgba(255, 255, 255, 0.83);
+    border: 0.3px solid rgba(0, 48, 46, 0.14);
+    border-radius: 5px;
+}
+
+.foodPlacePart2{
+    max-width: 90px;
+    margin: 0 auto
+}
+
+.foodPlacePart3{
+    font-family: PoppinsRegular;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 33px;
+    color: #00302E;
+    text-align: center;
+    padding-top:13px;
+    padding-bottom: 4px;
+}
+
+.foodPlacePart4{
+    font-family: PoppinsRegular;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.69);
+    text-align: center;
+}
+
+.foodPlacePart5{
+    display:flex;
+    justify-content: space-between;
+}
+.foodPlacePart6{
+    font-family: PoppinsBold;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 33px;
+    color: #00302E;
+}
+
+.foodPlacePart7{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 33px;
+    text-align: right;
+    color: #06E775;
+}

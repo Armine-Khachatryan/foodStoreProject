@@ -1,0 +1,138 @@
+.globalRegister{
+    display:flex
+}
+
+.picDiv{
+    max-width:764px;
+    max-height: 900px;
+}
+
+.formDivRegister{
+    max-width: 676px;
+    width:100%
+}
+
+.formSubDivRegister{
+    max-width:488px;
+    width:100%;
+    margin:auto
+}
+
+.RegisterTitle{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    color: #00302E;
+    margin-top:204px;
+    text-align: center;
+    margin-bottom: 61px;
+}
+
+.fullNameRegisterDiv{
+    margin-bottom: 47px;
+}
+
+.nameInputRegister{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 33px;
+    color: rgba(0, 48, 46, 0.53);
+    padding: 19px 0px 19px 25px;
+    width:100%;
+    max-width:488px;
+}
+
+.ph6{
+    display:block;
+}
+
+.emailRegisterDiv{
+    margin-bottom: 28px
+}
+
+.emailInputRegister{
+    width:100%;
+    max-width:488px;
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 33px;
+    color: rgba(0, 48, 46, 0.53);
+    padding: 19px 0px 19px 25px
+}
+
+.inputDivRegister{
+    position:relative;
+    margin-bottom: 50px;
+}
+
+.text-danger{
+    color:red;
+    font-size:18px;
+    margin-top: 10px;
+}
+
+.passwordInputRegister{
+    padding: 19px 0px 19px 25px;
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 33px;
+    color: rgba(0, 48, 46, 0.53);
+    width:100%;
+    max-width:488px;
+}
+
+.showRegister{
+    position:absolute;
+    top:19px;
+    right:30px;
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 33px;
+}
+
+.signUpBtn{
+    background: #00302E;
+    border-radius: 5px;
+    font-family: RubikRegular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding: 19px 0px;
+    margin-bottom: 28px;
+    color: #FBDDBB;
+}
+
+.alreadyHavAccLog{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alreadyHavAcc{
+    font-family: PoppinsRegular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 33px;
+}
+
+.wordLogin{
+    font-family: PoppinsBold;
+    font-style: medium;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 33px;
+    text-align: center;
+}
