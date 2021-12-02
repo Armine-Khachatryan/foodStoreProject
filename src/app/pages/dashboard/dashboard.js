@@ -19,6 +19,9 @@ function Dashboard() {
         setCount(count-1)
     }
 
+
+
+
     let renderFoodMenu = () => {
         return (
             foodMenuData.map((item, index) => {
@@ -45,7 +48,7 @@ function Dashboard() {
                     </div>
                     <div className="dashMenu">
 
-                        <DashMenu count={count} toChangeBelowCount={toChangeBelowCount}/>
+                        <DashMenu count={count} setCount={setCount} toChangeBelowCount={toChangeBelowCount}/>
                     </div>
                 </div>
                 <div className="dashboard2">

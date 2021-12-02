@@ -104,7 +104,7 @@ function DashMenu(props) {
             </div>
                <YourCardModal carts={carts} setCarts={setCarts} yourCardModalIsOpen={yourCardModalIsOpen}  closeYourCardModal={closeYourCardModal} toChangeBelowCount={props.toChangeBelowCount} openCheckoutCloseCart={openCheckoutCloseCart}/>
             <OrdersModal ordersModalIsOpen={ordersModalIsOpen} closeOrdersModal={closeOrdersModal} toChangeBelowCount={props.toChangeBelowCount}/>
-            <CheckOutModal  checkOutModalIsOpen={checkOutModalIsOpen} closeCheckOutModal={closeCheckOutModal} setCarts={setCarts}/>
+            <CheckOutModal setCount= {props.setCount} count={props.count} checkOutModalIsOpen={checkOutModalIsOpen} closeCheckOutModal={closeCheckOutModal} setCarts={setCarts}/>
         </>
     )
 }

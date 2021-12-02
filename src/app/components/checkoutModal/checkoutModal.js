@@ -97,6 +97,7 @@ function CheckOutModal (props){
     const paymentFunction=()=> {
         setShow(true);
         localStorage.removeItem("cart");
+        props.setCount(0)
     }
 
 
